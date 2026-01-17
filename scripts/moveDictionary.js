@@ -1131,7 +1131,7 @@ move.bodyPress = {
     moveset: [`normal`, `fighting`, `rock`],
     split: "physical",
     rarity: 3,
-    type: "normal",
+    type: "fighting",
     power: 80
 }
 
@@ -4451,5 +4451,6 @@ for (const i in move){
     move[i].id = i
     if (move[i].timer == undefined) move[i].timer = defaultPlayerMoveTimer
 }
+
 
 
